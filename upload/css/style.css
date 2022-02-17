@@ -1,0 +1,161 @@
+html {
+	-webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    height: 100%;
+}
+
+body {
+	font-style: sans-serif;
+	background: #EFF4FB!important;
+}
+
+.bg-match {
+	background: #EFF4FB!important;
+}
+
+.bodyWrapper {
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
+	background-image: url("../assets/img/login_background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+}
+
+.popularCardStyle {
+	border-radius: 5px;
+	padding: 20px;
+}
+
+.login_Container_Wrapper {
+	width: 60%;
+	height: auto;
+	overflow: hidden;
+	border: 1px solid rgba(0,0,0,.1);
+	padding: 15px 12px;
+	border-radius: 5px;
+}
+
+.login_Container {
+	font-family: 'Jost', sans-serif;
+	width: auto;
+	min-height: 400px;
+	height: auto;
+	background: white;
+	overflow: hidden;
+	padding: 10px 30px 25px 30px;
+	box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+	-webkit-box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+}
+
+.login_Container label {
+	font-size: 12px;
+}
+
+.login_Container h5 {
+	font-size: 15px;
+	margin-top: 25px;
+	margin-bottom: 0px;
+}
+
+input[type="tel"],
+input[type="text"] {
+    font-size: 13px;
+}
+
+.lable-upload {
+	color: rgba(0,0,0,0.8);
+}
+
+.login_Container h4 {
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.login_Container p {
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.imgLogo {
+	height: 50px;
+	width: auto;
+	margin-top: 20px;
+	margin-left: -4px;
+	margin-bottom: 10px;
+}
+
+.login_Container {
+	text-align: left;
+}
+
+.buttons {
+	float: right;
+	margin-top: 10px;
+}
+
+.btn {
+	padding: 10px 30px;
+	transition: 0.3s;
+}
+
+.btn-reset {
+	margin-right: 3px;
+}
+
+.btn-reset:hover,
+.btn-reset:focus {
+	background: white;
+	color:black;
+	-webkit-box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+}
+
+.btn-send {
+    background-color: mediumseagreen;
+    color: white;
+}
+
+.btn-send:hover,
+.btn-send:focus {
+	background-color: mediumseagreen;
+    color: white;
+    -webkit-box-shadow: 0 4px 5px 0 rgba(60, 179, 113, 0.5), 0 1px 10px 0 rgba(60, 179, 113, 0.5), 0 2px 4px -1px rgba(60, 179, 113, 0.3);
+  	box-shadow: 0 4px 5px 0 rgba(60, 179, 113, 0.5), 0 1px 10px 0 rgba(60, 179, 113, 0.5), 0 2px 4px -1px rgba(60, 179, 113, 0.3); 
+}
+
+/********
+
+********/
+
+.upload_Container {
+	background: transparent;
+	padding: 0px;
+	border: none;
+	box-shadow: none;
+}
+
+.section_Wrapper {
+	background: white;
+	padding: 15px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	transition: 0.4s;
+}
+
+.section_Wrapper:hover,
+.section_Wrapper:focus {
+	box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+	-webkit-box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+}
+
+.login_Container_Wrapper_Borderless {
+	border: none;
+	margin-top: 50px;
+}
+
+
+
+
+
