@@ -58,14 +58,14 @@
           <div class="section_Wrapper">
           <div class="row">
 
-            <div class="col-md-6">
+            <div class="col-md-6 col-sm-12">
               <div class="form-group">
                 <label for="schoolId" class="bmd-label-floating lable-upload">School ID: </label>
                 <input type="file" name="schoolId" id="schoolId" accept="image/png, image/jpeg">
               </div>
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-6 col-sm-12">
               <div class="form-group">
                 <label for="pp" class="bmd-label-floating lable-upload">Passport Size Photo: </label>
                 <input type="file" name="pp" id="pp">
@@ -78,14 +78,14 @@
           <div class="section_Wrapper">
           <div class="row">
 
-            <div class="col-md-6">
+            <div class="col-md-6 col-sm-12">
               <div class="form-group">
                 <label for="passportPage" class="bmd-label-floating lable-upload">Passport Information Page: </label>
                 <input type="file" name="passportPage" id="passportPage">
               </div>
             </div>
 
-            <div class="col-md-6">
+            <div class="col-md-6 col-sm-12">
               <div class="form-group">
                 <label for="schoolId" class="bmd-label-floating lable-upload">Status Letter: </label>
                 <input type="file" name="pp" id="pp">
