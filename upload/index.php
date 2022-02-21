@@ -1,3 +1,5 @@
+
+
 <?php include 'header.php'; ?>
 
 <div class="bodyWrapper">
@@ -7,7 +9,6 @@
       <div class="login_Container upload_Container popularCardStyle">
 
       <img src="assets/img/logoTab.png" class="imgLogo">
-
 
       <div id="loginView">
         
@@ -61,7 +62,8 @@
             <div class="col-md-6 col-sm-12">
               <div class="form-group">
                 <label for="schoolId" class="bmd-label-floating lable-upload">School ID: </label>
-                <input type="file" name="schoolId" id="schoolId" accept="image/png, image/jpeg">
+                <input type="hidden" name="MAX_SIZE" value="3145728"/>
+                <input type="file" name="schoolId" id="schoolId" accept="image/*">
               </div>
             </div>
 
@@ -98,7 +100,8 @@
 
           <div class="buttons">
             <button type="reset" class="btn btn-reset">Clear</button>
-            <button type="submit" class="btn btn-send" name="upload">Upload</button>
+            <button type="submit" class="btn btn-send" name="upload">Upload  <i class="fa fa-cloud-upload" aria-hidden="true"></i></button>
+
           </div>
 
         </form>
